@@ -1,0 +1,14 @@
+name:"deploy optimizacion"
+
+on:
+  push:
+    branches:["master"]
+
+jobs:
+  deploy-codigooptimizacion:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "hacemos pull del codigo"
+      run: echo "correr migraciones"
+      run: echo "generar binario"
+      run: echo "publicar version"
