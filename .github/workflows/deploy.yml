@@ -1,4 +1,4 @@
-name:"deploy_optimizacion"
+name: "deploy_optimizacion"
 
 on:
   push:
